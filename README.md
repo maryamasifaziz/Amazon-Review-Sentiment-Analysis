@@ -11,7 +11,7 @@
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live App](https://amazon-review-sentiment.streamlit.app)
+🔗 [View Live App](https://amazon-review-sentiment.streamlit.app)  
 🤗 [Model on HuggingFace](https://huggingface.co/Maryam3584/amazon-review-sentiment)
 
 ---
@@ -84,6 +84,6 @@ python train.py
 ---
 
 ## 👤 Author
-**Maryam Asif**
-🎓 FAST NUCES
+**Maryam Asif**  
+🎓 FAST NUCES  
 🔗 [LinkedIn](https://linkedin.com/maryamasifaziz) | [GitHub](https://github.com/maryamasifaziz) | [HuggingFace](https://huggingface.co/Maryam3584)
