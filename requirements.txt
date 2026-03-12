@@ -6,4 +6,5 @@ numpy
 matplotlib 
 seaborn 
 datasets 
+altair==4.2.2
 streamlit
