@@ -3,6 +3,11 @@ import torch
 import numpy as np
 from transformers import BertTokenizer, BertForSequenceClassification
 import matplotlib.pyplot as plt
+import pyarrow as pa
+pa.__version__  # force pyarrow load
+
+import pandas as pd
+pd.options.mode.string_storage = "python"
 
 # Page Config
 st.set_page_config(
@@ -92,9 +97,8 @@ with tab2:
                         'Confidence': f"{confidence:.1f}%"
                     })
 
-            import pandas as pd
             results_df = pd.DataFrame(results)
-            results_df = results_df.astype(str)
+            results_df = results_df.convert_dtypes(dtype_backend="numpy_nullable")
             st.dataframe(results_df, use_container_width=True)
             
             # Summary
@@ -104,4 +108,5 @@ with tab2:
             col1.metric("Positive Reviews", pos)
 
             col2.metric("Negative Reviews", neg)
+
 
