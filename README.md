@@ -11,7 +11,7 @@
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live App](https://amazon-review-sentiment.streamlit.app)  
+🔗 [View Live App](https://amazon-review-sentiment-analysis.streamlit.app/)  
 🤗 [Model on HuggingFace](https://huggingface.co/Maryam3584/amazon-review-sentiment)
 
 ---
@@ -56,11 +56,12 @@ Fine-tuned **bert-base-uncased** on 20,000 real Amazon product reviews for binar
 
 ## 📁 Project Structure
 ```
-amazon-review-sentiment/
-├── train.py          # BERT fine-tuning + push to HuggingFace
+Amazon-Review-Sentiment-Analysis/
+├── modeltrain.py     # BERT fine-tuning + push to HuggingFace
 ├── evaluate.py       # Metrics + confusion matrix + ROC curve
 ├── app.py            # Streamlit dashboard
 └── requirements.txt
+....
 ```
 
 ---
