@@ -68,8 +68,8 @@ Amazon-Review-Sentiment-Analysis/
 
 ## ⚙️ Run Locally
 ```bash
-git clone https://github.com/yourusername/amazon-review-sentiment
-cd amazon-review-sentiment
+git clone https://github.com/maryamasifaziz/Amazon-Review-Sentiment-Analysis
+cd Amazon-Review-Sentiment-Analysis
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -79,7 +79,7 @@ streamlit run app.py
 ## 🏋️ Retrain Model
 ```bash
 # Run on Google Colab with T4 GPU for best results
-python train.py
+python modeltrain.py
 ```
 
 ---
