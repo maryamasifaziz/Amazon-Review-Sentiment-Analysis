@@ -4,7 +4,7 @@ import numpy as np
 from transformers import BertTokenizer, BertForSequenceClassification
 import matplotlib.pyplot as plt
 import pyarrow as pa
-pa.__version__  # force pyarrow load
+# pa.__version__  # force pyarrow load
 
 import pandas as pd
 pd.options.mode.string_storage = "python"
@@ -108,5 +108,6 @@ with tab2:
             col1.metric("Positive Reviews", pos)
 
             col2.metric("Negative Reviews", neg)
+
 
 
