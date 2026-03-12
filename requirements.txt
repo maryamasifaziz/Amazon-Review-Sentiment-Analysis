@@ -8,3 +8,5 @@ seaborn
 datasets 
 altair==4.2.2
 streamlit
+pyarrow==11.0.0
+
