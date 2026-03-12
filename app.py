@@ -93,9 +93,9 @@ with tab2:
                     })
 
             import pandas as pd
-                results_df = pd.DataFrame(results)
-                results_df = results_df.astype(str)
-                st.dataframe(results_df, use_container_width=True)
+            results_df = pd.DataFrame(results)
+            results_df = results_df.astype(str)
+            st.dataframe(results_df, use_container_width=True)
             
             # Summary
             pos = sum(1 for r in results if 'Positive' in r['Sentiment'])
@@ -104,3 +104,4 @@ with tab2:
             col1.metric("Positive Reviews", pos)
 
             col2.metric("Negative Reviews", neg)
+
